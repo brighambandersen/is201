@@ -1,2 +1,2 @@
 # is201
-Information Systems (BYU)
+BYU IS 201 (Information Systems)
