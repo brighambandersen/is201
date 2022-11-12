@@ -1,0 +1,19 @@
+body {
+  background-color: #fdfdfd;
+  background-color: yellow;
+}
+
+iframe {
+  width: 100%;
+  height: 600px;
+}
+
+.tableauViz {
+  height: 1000px;
+  width: 100%;
+}
+
+.button-link {
+  color: red;
+  text-decoration: none;
+}
