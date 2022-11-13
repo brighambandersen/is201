@@ -8,115 +8,105 @@
     <title>My Website - Brigham Andersen</title>
   </head>
   <body>
-    <button class="button-link-container">
+    <div class="button-link-container">
       <a href="./bootstrap.html" target="_blank" class="button-link"
-        >Professional Pages</a
+        >View Professional Pages</a
       >
-    </button>
-    <h1>Scratch Page</h1>
+    </div>
+    <div class="content">
+      <h1>Scratch Page</h1>
 
-    <h3>Tableau</h3>
-    <!-- <div class="tableau-container">
-      <div class="tableauPlaceholder" id="viz1668211673708">
-        <noscript
-          ><a href="#"
-            ><img
-              alt=" "
-              src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;TableauServerDashboard&#47;PopularContent&#47;1_rss.png"
-              style="border: none" /></a></noscript
-        ><object class="tableauViz" style="display: none">
-          <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
-          <param name="embed_code_version" value="3" />
-          <param name="site_root" value="" />
-          <param
-            name="name"
-            value="TableauServerDashboard&#47;PopularContent"
+      <a href="./video.html" class="video-link">Click for embedded video</a>
+
+      <div class="section favorite-languages">
+        <h3>Favorite Languages</h3>
+        <img
+          src="../assets/img/js-python.png"
+          alt="JavaScript and Python"
+          height="200"
+        />
+        <p>
+          JavaScript and Python are my 2 favorite coding languages. Here's why:
+        </p>
+        <ol>
+          <li class="red-text">
+            JavaScript
+            <ul>
+              <li>Great for web development</li>
+              <li>Best language for dealing with JSON data</li>
+              <li>Best package manager (NPM)</li>
+            </ul>
+          </li>
+          <li class="blue-text">
+            Python
+            <ul>
+              <li>The cleanest language around, basically pseudocode</li>
+              <li>Incredible support (my go-to for quick scripts)</li>
+            </ul>
+          </li>
+        </ol>
+        <!-- 
+        <div class="videos-container">
+          <iframe
+            title="Web Dev (HTML/CSS) Crash Course 1.0"
+            src="https://www.youtube.com/embed/vGIRW00pB9w"
+            allowfullscreen
           />
-          <param name="tabs" value="no" />
-          <param name="toolbar" value="yes" />
-          <param
-            name="static_image"
-            value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;TableauServerDashboard&#47;PopularContent&#47;1.png"
-          />
-          <param name="animate_transition" value="yes" />
-          <param name="display_static_image" value="yes" />
-          <param name="display_spinner" value="yes" />
-          <param name="display_overlay" value="yes" />
-          <param name="display_count" value="yes" />
-          <param name="language" value="en-US" />
-          <param name="filter" value="publish=yes" />
-        </object>
+        </div> -->
+
+        <div class="section tableau-container">
+          <h3>Tableau</h3>
+          <div
+            class="tableauPlaceholder"
+            id="viz1668211673708"
+            style="position: relative"
+          >
+            <noscript
+              ><a href="#"
+                ><img
+                  alt=" "
+                  src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;TableauServerDashboard&#47;PopularContent&#47;1_rss.png"
+                  style="border: none" /></a></noscript
+            ><object class="tableauViz" style="display: none">
+              <param
+                name="host_url"
+                value="https%3A%2F%2Fpublic.tableau.com%2F"
+              />
+              <param name="embed_code_version" value="3" />
+              <param name="site_root" value="" />
+              <param
+                name="name"
+                value="TableauServerDashboard&#47;PopularContent"
+              />
+              <param name="tabs" value="no" />
+              <param name="toolbar" value="yes" />
+              <param
+                name="static_image"
+                value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;TableauServerDashboard&#47;PopularContent&#47;1.png"
+              />
+              <param name="animate_transition" value="yes" />
+              <param name="display_static_image" value="yes" />
+              <param name="display_spinner" value="yes" />
+              <param name="display_overlay" value="yes" />
+              <param name="display_count" value="yes" />
+              <param name="language" value="en-US" />
+              <param name="filter" value="publish=yes" />
+            </object>
+          </div>
+        </div>
+        <script type="text/javascript">
+          var divElement = document.getElementById("viz1668211673708");
+          var vizElement = divElement.getElementsByTagName("object")[0];
+          var scriptElement = document.createElement("script");
+          scriptElement.src =
+            "https://public.tableau.com/javascripts/api/viz_v1.js";
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
       </div>
     </div>
-    <script type="text/javascript">
-      var divElement = document.getElementById("viz1668211673708");
-      var vizElement = divElement.getElementsByTagName("object")[0];
-      var scriptElement = document.createElement("script");
-      scriptElement.src =
-        "https://public.tableau.com/javascripts/api/viz_v1.js";
-      vizElement.parentNode.insertBefore(scriptElement, vizElement);
-    </script> -->
 
-    <!-- <h3>Video</h3>
-    <iframe
-      title="Web Dev (HTML/CSS) Crash Course 1.0"
-      src="https://www.youtube.com/embed/vGIRW00pB9w"
-      allowfullscreen
-    /> -->
-
-    <h3>Resume</h3>
-    <ol>
-      <li id="education">
-        Education
-        <!-- Make sure to nest these inside of li tags -->
-        <ul>
-          <li>
-            Brigham Young University (Computer Science: Software Engineer +
-            Business)
-          </li>
-          <li>Herriman High School (Business + Mathematics)</li>
-        </ul>
-      </li>
-      <li id="experience">
-        Experience
-        <ul>
-          <li>Development Team Lead</li>
-          <li>Software Engineer</li>
-          <li>Software Developer</li>
-          <li>UX Designer</li>
-          <li>UI Designer</li>
-        </ul>
-      </li>
-      <li id="skills">
-        Skills
-        <ul>
-          <li>JavaScript + TypeScript (React, Vue, Vanilla)</li>
-          <li>React Native</li>
-          <li>Python (Django, Flask)</li>
-          <li>Java</li>
-          <li>Android</li>
-          <li>Flutter</li>
-          <li>HTML, CSS</li>
-          <li>VBA</li>
-          <li>Linux</li>
-          <li>C, C++</li>
-          <li>AWS</li>
-          <li>SQL</li>
-          <li>Git</li>
-          <li>Figma</li>
-        </ul>
-      </li>
-    </ol>
-    <p>
-      See my
-      <a
-        href="https://linkedin.com/in/brighamband"
-        target="_blank"
-        title="LinkedIn profile for Brigham Andersen"
-        >LinkedIn profile</a
-      >
-      for more information about me.
-    </p>
-    <a href="#">Back to Top</a>
+    <div class="footer">
+      <p>You've hit the bottom of the page -- <a href="#">Back to Top</a></p>
+    </div>
   </body>
 </html>
